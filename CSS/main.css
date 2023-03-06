@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: rgba(30, 30, 30, 0.915) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ex-mrg{
+    margin-left: 40%;
+}
+.ex-font{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.ex-md-font{
+    font-size: 1.7rem;
+    /* font-weight: bold; */
+    /* line-height: 2.5; */
+
+}
+.ex-sm-font{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+
+}
+.eml-ip{
+    height: 77px;
+    width: 500px !important;
+    
+    margin: 0px !important;
+    margin-left: 40px !important;
+
+ 
+}
+.background-img{
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.396),black), url(../Images/netflix\ poster.jpg);
+    background-size: cover;
+}
+.ex-btm-req{
+    padding-bottom: 160px;
+}
+.sb-btn{
+    height: 77px;
+    width: 240px !important;
+
+}
+.ex-mar-req{
+    margin-left: 300px !important;
+}
+.cus-hei-wid-tv{
+    height: 400px;
+}
+.ex-div-mar{
+    margin: 80px;
+    margin-top: 108px;
+}
+.ex-div-mar-mb{
+    margin: 70px;
+    margin-top: 102px;
+}
+.cus-font{
+    font-size: 3.1rem;
+}
+.cus-fs-p{
+    font-size: 27px;
+    line-height: 1.1;
+}
+.cus-font-mb{
+    font-size: 3.2rem;
+    line-height: 1.15;
+    
+}
+.cus-fs-p-mb{
+    font-size: 27px;
+    line-height: 1.2;
+}
+.ex-div-mar-dev{
+    margin: 70px;
+    margin-top: 127px;
+
+}
+.cus-fs-p-chd{
+    font-size: 27px;
+    line-height: 1.2;
+    letter-spacing: 0rem;
+}
+.Temp-ex-btm-req{
+    padding-bottom: 560px;
+}
+.spc-color{
+    color: #737373;
+}
+
+
