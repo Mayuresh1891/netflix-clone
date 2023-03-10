@@ -7,145 +7,207 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../CSS/main.css">
-    <link rel="stylesheet" href="../Bootstrap/js/bootstrap.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../Bootstrap/js/bootstrap.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
+
 <body>
-    <section class="background-img pb-0 d-non">
+    <section class="container-fluid p-0">
+        <!-- This is 1st section 1 (main)-->
+    <section class="background-img pb-0">
+        <!-- This is header section -->
         <header class="row col-12 justify-content-between">
-            <div class="col-2 ms-5 ">
+            <div class="col-5 col-lg-2 ms-2 ms-lg-4 ">
                 <img src="../Images/netflix.png" alt="Netflix logo" class="h-75 w-75 translate-middle-y mt-5">
             </div>
-            <div class="col-4">
-                <div class="ex-mrg mt-4">
-                    <select name="" id="" class="form-select-lg me-3 col-4 p-1">
-                        <option value="English">English</option>
-                        <option value="Hindi">हिंदी</option>
+            <div class="col-6 col-lg-4">
+                <div class="ex-mrg mt-4 d-flex">
+                    <select name="" id="" class="form-select-lg me-3 cus-hei-wid p-0 fa globe-font-size">
+                        <option value="English" class="fa globe-font-size">&#xf0ac; English</option>
+                        <option value="Hindi" class="fa globe-font-size">&#xf0ac; हिंदी</option>
                     </select>
-                    <button class="btn btn-danger text-white ps-2 pe-2 col-4 mb-2 border-1">Sign In</button>
+                    <button class="btn btn-danger text-white ps-2 pe-2  cus-hei-wid mb-2 border-1">Sign In</button>
                 </div>
             </div>
         </header>
-        <div class="m-5 mt-0 mb-0 ex-btm-req row col">
-            <div class="row justify-content-center mt-5 pt-4 col-7 ex-mar-req">
-                <p class=" ex-font text-center mt-4 m-0 text-white">Unlimited movies, TV shows and more.</p>
-                <p class=" row justify-content-center ex-md-font text-white mt-3">Watch anywhere. Cancel anytime.</p>
-                <p class=" row justify-content-center ex-sm-font text-white mt-2">Ready to watch? Enter your email to create or restart your membership.</p>
-            </div>  
-            <div class="d-flex justify-content-center  ">
-                <div class="d-flex col-7">
-                    <input type="text" name="eml-sb" class="form-text ps-3 eml-ip " placeholder="Email Address" required>
-                    <button type="submit" for="eml-sb" class=" bg-danger sb-btn h3 p-3 text-white border-1">Get Started ></button>
+            <div class="ms-lg-5 me-lg-5 ex-btm-req col pt-lg-4 pt-lg-0 justify-content-center">
+                <div class="d-flex flex-column justify-content-center mt-lg-5 pt-4">
+                    <p class=" ex-font text-center mt-4 m-0 text-white">Unlimited movies, TV</p>
+                    <p class=" ex-font text-center mt- m-0 text-white">shows and more.</p>
+                    <p class="text-center ex-md-font text-white mt-3">Watch anywhere. Cancel anytime.</p>
+                    <p class="ex-sm-font text-center text-white mt-2">Ready to watch? Enter your email to create or restart your membership.</p>
+                </div>  
+                <div class="d-flex justify-content-center mb-lg-5 ">
+                    <div class="d-flex  mb-lg-5 mb-3">
+                        <input type="text" name="eml-sb" class="form-text ps-3 eml-ip" placeholder="Email Address" required>
+                        <button type="submit" for="eml-sb" class=" bg-danger sb-btn h3 p-3 text-white border-1 d-lg-block d-none">Get Started &gt;</button>
+                    </div>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" for="eml-sb" class=" bg-danger sb-btn h6 p-3 text-white border-1 d-block d-lg-none">Get Started &gt;</button>
+                </div>    
+            </div>
+    </section>
+    <!-- This is 2nd section (T.v)-->
+    <section class="mt-2 bg-black row col-12 justify-content-center pb-5 pt-2 m-0">
+        <div class="col-10 d-flex row">
+            <div class="ex-div-mar col flex-column flex-lg-row justify-content-center justify-content-lg-start">
+                <p class="cus-font fw-bolder text-center text-lg-start text-white">Enjoy on your TV.</p>
+                <p class="cus-fs-p text-center text-lg-start text-white">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="me-lg-4 pe-lg-2 col flex-lg-row ps-0 d-none d-lg-block">
+                <img src="../Images/tv.png" alt="Image of TV" class="cus-hei-wid-tv pe-">
             </div>
         </div>
-    </section>
-    <section class="mt-2 bg-black row col-12 justify-content-center pb-5 pt-2">
-        <div class="col-10 d-flex row">
-            <div class="ex-div-mar col">
-                <p class="cus-font fw-bolder text-white">Enjoy on your TV.</p>
-                <p class="cus-fs-p text-white">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-            </div>
-            <div class="me-4 pe-2 col row ">
-                <img src="../Images/tv.png" alt="Image of TV" class="cus-hei-wid-tv">
-            </div>
+        <div class="me-lg-4 pe-lg-2 col flex-lg-row ps-0 d-lg-none">
+            <img src="../Images/tv.png" alt="Image of TV" class="cus-hei-wid-tv pe-">
         </div>
     </section>
-    <section class="mt-2 bg-black row col-12 justify-content-center pb-4 pt-4">
+    <!-- This is 3rd section (mobile)-->
+    <section class="mt-2 bg-black row col-12 justify-content-center pb-4 pt-4 m-0">
         <div class="col-10 d-flex row">
-            <div class="me-4 pe-2 col row ">
+            <div class="me-4 pe-2 col row d-none d-lg-block">
                 <img src="../Images/mobile-0819.jpg" alt="Image of TV" class="cus-hei-wid-tv">
             </div>
-            <div class="ex-div-mar-mb col">
-                <p class="cus-font-mb fw-bolder text-white">Download your shows to watch offline.</p>
-                <p class="cus-fs-p-mb text-white">Save your favourites easily and always have something to watch.</p>
+            <div class="ex-div-mar-mb col flex-column flex-lg-row justify-content-center justify-content-lg-start">
+                <p class="cus-font-mb fw-bolder text-white text-center text-lg-start">Download your shows to watch offline.</p>
+                <p class="cus-fs-p-mb text-white text-lg-start text-center">Save your favourites easily and always have something to watch.</p>
             </div>
         </div>
-    </section>
-    <section class="mt-2 bg-black row col-12 justify-content-center pt-5 pb-5">
-        <div class="col-10 d-flex row">
-            <div class="ex-div-mar-dev col">
-                <p class="cus-font fw-bolder text-white">Watch everywhere.</p>
-                <p class="cus-fs-p text-white">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <div class="me-lg-4 pe-lg-2 col pb-5 pb-lg-0 flex-lg-row ps-0 d-lg-none">
+                <img src="../Images/mobile-0819.jpg" alt="Image of TV" class="cus-hei-wid-tv">
             </div>
-            <div class="me-4 pe-2 col row ">
+    </section>
+    <!-- This is 4th section (devices) -->
+    <section class="mt-2 bg-black row col-12 justify-content-center pt-2 pt-lg-5 pb-5 m-0">
+        <div class="col-10 d-flex row">
+            <div class="ex-div-mar-mb col flex-column flex-lg-row justify-content-center justify-content-lg-start">
+                <p class="cus-font fw-bolder text-white text-center text-lg-start">Watch everywhere.</p>
+                <p class="cus-fs-p-mb text-white text-lg-start text-center d-none d-lg-block">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="me-4 pe-2 col row d-none d-lg-block">
                 <img src="../Images/device-pile-in.png" alt="Image of TV" class="cus-hei-wid-tv">
             </div>
         </div>
-    </section>
-    <section class="mt-2 bg-black row col-12 justify-content-center pb-5 pt-2">
-        <div class="col-10 d-flex row">
-            <div class=" col row mt-4 ms- ps-5 justify-content-end">
-                <img src="../Images/netflix-children.png" alt="Image of TV" class="cus-hei-wid-tv">
-            </div>
-            <div class="ex-div-mar-mb col">
-                <p class="cus-font-mb fw-bolder text-white">Create profiles for children.</p>
-                <p class="cus-fs-p-chd text-white">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
-            </div>
+            <p class="cus-fs-p text-white text-lg-start text-center d-lg-none">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        <div class="me-lg-4 pe-lg-2 col pb- pb-lg-0 flex-lg-row ps-0 d-lg-none">
+            <img src="../Images/device-pile-in.png" alt="Image of TV" class="cus-hei-wid-tv">
         </div>
     </section>
-    <section class="mt-2 bg-black row col-12 justify-content-center ">
+    <!-- This is 4th section (childrens)-->
+    <section class="mt-2 bg-black row col-12 justify-content-center pb-5 pt-2 m-0">
+        <div class="col-10 d-flex row">
+            <div class="mt-4 ps-5 col row d-none d-lg-block justify-content-lg-end">
+                <img src="../Images/netflix-children.png" alt="Image of TV" class="cus-hei-wid-tv">
+            </div>
+            <div class="ex-div-mar-mb col flex-column flex-lg-row justify-content-center justify-content-lg-start">
+                <p class="cus-font fw-bolder text-white text-center text-lg-start d-none d-lg-block">Create profiles for children.</p>
+                <p class="cus-fs-p-mb text-white text-lg-start text-center d-none d-lg-block">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            </div>
+        </div>
+            <p class="cus-font fw-bolder text-white text-center text-lg-start d-lg-none">Create profiles for children.</p>
+            <p class="cus-fs-p text-white text-lg-start text-center d-lg-none">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        <div class="me-lg-4 pe-lg-2 col pb- pb-lg-0 flex-lg-row ps-0 d-lg-none">
+            <img src="../Images/netflix-children.png" alt="Image of TV" class="cus-hei-wid-tv">
+        </div>
+    </section>
+    <!-- This is 5th section (FAQ)-->
+    <section class="mt-2 bg-black row col-12 justify-content-center m-0">
         <div class="row col-11 mt-5">
             <p class=" cus-font  text-white text-center">Frequently Asked Questions</p>
         </div>
-        <div class="row col-9 mt-5">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Accordion Item #1
+        <div class="row col-lg-7 col-12 mt-5">
+            <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item bg-spc-color text-white">
+                  <h2 class="accordion-header " id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-spc-color text-white pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <p class="h3"> What is Netflix?</p>
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body "> <p class="h3"> Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+                                                 <p class="h3"> You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p></div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      Accordion Item #2
+                <div class="accordion-item bg-spc-color text-white mt-2">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-spc-color text-white pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       <p class="h3"> How much does Netflix cost?</p>
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"> <p class="h3">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p></div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Accordion Item #3
+                <div class="accordion-item bg-spc-color text-white mt-2">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed bg-spc-color text-white pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <p class="h3"> Where can I watch?</p>
                     </button>
                   </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p class="h3"> Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                    <p class="h3">You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p></div>
                   </div>
                 </div>
-              </div>
+                <div class="accordion-item bg-spc-color text-white mt-2">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed bg-spc-color text-white pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                         <p class="h3">How do I cancel?</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"><p class="h3">Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p></div>
+                    </div>
+                  </div>
+                  <div class="accordion-item bg-spc-color text-white mt-2">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed bg-spc-color text-white pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                         <p class="h3"> What can I watch on Netflix? </p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"><p class="h3">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p></div>
+                    </div>
+                  </div>
+                  <div class="accordion-item bg-spc-color text-white mt-2">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed bg-spc-color text-white pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                         <p class="h3"> Is Netflix good for kids?</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"><p class="h3">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+                    </p> <p class="h3">Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p></div>
+                    </div>
+                  </div>
+            </div>
         </div>
-        <div class="m-5 mt-0 mb-0 col">
-            <div class="row justify-content-center mt-5 pt-4 col-7 ex-mar-req">
-                <p class=" row justify-content-center ex-sm-font text-white mt-2">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="ms-5 me-5 row col justify-content-center pb-5">
+            <div class="d-flex justify-content-center  mt-5 pt-4">
+                <p class="ex-sm-font text-center text-white mt-2">Ready to watch? Enter your email to create or restart your membership.</p>
             </div>  
-            <div class="d-flex justify-content-center mb-5 ">
-                <div class="d-flex col-7 mb-5">
-                    <input type="text" name="eml-sb" class="form-text ps-3 eml-ip " placeholder="Email Address" required>
-                    <button type="submit" for="eml-sb" class=" bg-danger sb-btn h3 p-3 text-white border-1">Get Started ></button>
+            <div class="d-flex justify-content-center mb-lg-5 ">
+                <div class="d-flex  mb-lg-5 mb-3">
+                    <input type="text" name="eml-sb" class="form-text ps-3 eml-ip" placeholder="Email Address" required>
+                    <button type="submit" for="eml-sb" class=" bg-danger sb-btn h3 p-3 text-white border-1 d-lg-block d-none">Get Started &gt;</button>
                 </div>
             </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" for="eml-sb" class=" bg-danger sb-btn h6 p-3 text-white border-1 d-block d-lg-none">Get Started &gt;</button>
+            </div>    
+        </div>
     </section>
-    <section class="mt-2 bg-black row col-12 justify-content-center ">
-        <div class="container col-7 mt-4">
-            <div class="justify-content-center mt-5">
+    <!-- This is 6th section (Help)-->
+    <section class="mt-2 bg-black row col-12 justify-content-center m-0">
+        <div class="container col-lg-7 p-lg-0 p-4 mt-lg-4 mt-3">
+            <div class="justify-content-center mt-lg-5 d-none d-lg-block">
                 <div class="">
-                    <p class="spc-color">Questions? Call 000-800-919-1694</p>
+                    <p class="spc-color ">Questions? Call 000-800-919-1694</p>
                 </div>
-                <div class="row">
+                <div class="row mt-4 mt-lg-0">
                     <div class="col-3">
                         <p class="spc-color">FAQ</p>
                     </div>
@@ -199,16 +261,86 @@
                     </div>
                 </div>
                 <div class="mt-2">
-                    <select name="" id="" class="form-select-lg me-3 p-1">
-                        <option value="English"> <p><i class="fa fa-globe" aria-hidden="true"></i>English</p> </option>
-                        <option value="Hindi">हिंदी <i class="fa fa-globe" aria-hidden="true"></i> </option>
+                    <select name="" id="" class="form-select-lg me-3 p-1 fa globe-font-size">
+                        <option value="English" class="fa globe-font-size">&#xf0ac; English</option>
+                        <option value="Hindi" class="fa globe-font-size">&#xf0ac; हिंदी</option>
                     </select>
                 </div>
                 <div class="mt-3 pb-3">
-                    <p class="spc-color">Netflix India <i class="fa fa-globe" aria-hidden="true"></i></p>
+                    <p class="spc-color">Netflix India</p>
                 </div>
             </div>
+            <div class="justify-content-center mt-lg-5 d-lg-none">
+                <div class="">
+                    <p class="spc-color h5">Questions? Call 000-800-919-1694</p>
+                </div>
+                <div class="row mt-4 mt-lg-0">
+                    <div class="col-6">
+                        <p class="spc-color">FAQ</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Help Centre</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Account</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Media Centre</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="spc-color">Investor Relations</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Jobs</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Ways to Watch</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Terms of Use</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="spc-color">Privacy</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Cookie Preferences</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Corporate Information</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Contact Us</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="spc-color">Speed Test</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Legal Notices</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="spc-color">Only on Netflix</p>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <select name="" id="" class="form-select-lg me-3 p-1 globe-font-size fa">
+                        <option value="English" class="fa globe-font-size">&#xf0ac; English</option>
+                        <option value="Hindi" class="fa globe-font-size">&#xf0ac; हिंदी</option>
+                    </select>
+                </div>
+                <div class="mt-3 pb-3">
+                    <p class="spc-color">Netflix India</p>
+                </div>
+            </div>
+            
         </div>
     </section>
+</section>
+    
 </body>
 </html>

@@ -4,75 +4,132 @@ body{
     background-color: rgba(30, 30, 30, 0.915) !important;
     font-family: 'Roboto', sans-serif;
 }
+ @media screen and (min-width: 395px){
+    .ex-mrg{
+        margin-left: 40%;
+    }
+    .ex-mar-req{
+        margin-left: 300px !important;
+    }
+    .cus-hei-wid{
+        height: 39px !important;
+        width: 97px !important;
+        margin-top: 0px !important;
+    }
+    .ex-font{
+        font-size: 4rem !important;
+        font-weight: bold !important;
+        line-height: 1.1 !important;
+    }
+    .ex-md-font{
+        font-size: 1.7rem !important;
+        /* font-weight: bold; */
+        /* line-height: 2.5; */
+    }
+    .ex-sm-font{
+        font-size: 1.2rem !important;
+        /* font-weight: bold; */
+    
+    }
+    .sb-btn{
+        height: 77px !important;
+        width: 240px !important;
+    }
+    .eml-ip{
+        height: 77px !important;
+        width: 500px !important;
+        margin: 0px !important;
+    }
+    .cus-font{
+        font-size: 3.1rem !important;
+    }
+    .ex-div-mar{
+        margin: 80px !important;
+        margin-top: 108px !important;
+    }
+    .cus-hei-wid-tv{
+        height: 400px !important;
+    }
+    .cus-fs-p{
+        font-size: 27px !important;
+        line-height: 1.1 !important;
+    }
+    .ex-div-mar-mb{
+        margin: 70px !important;
+        margin-top: 102px !important;
+    }
+    .cus-font-mb{
+        font-size: 3.2rem !important;
+        line-height: 1.15 !important;
+    }
+    .cus-fs-p-mb{
+        font-size: 27px !important;
+        line-height: 1.2 !important;
+    }
+ }
 
 .ex-mrg{
-    margin-left: 40%;
+    /* margin-left: 40%; */
 }
 .ex-font{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 1.1;
 }
 .ex-md-font{
-    font-size: 1.7rem;
-    /* font-weight: bold; */
-    /* line-height: 2.5; */
-
+    font-size: 1.3rem;
 }
 .ex-sm-font{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     /* font-weight: bold; */
-
 }
 .eml-ip{
-    height: 77px;
-    width: 500px !important;
-    
-    margin: 0px !important;
-    margin-left: 40px !important;
+    height: 52px;
+    width: 350px;
+    margin: 0px;
 
- 
 }
 .background-img{
-    background-image: linear-gradient(black,rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.396),black), url(../Images/netflix\ poster.jpg);
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.396),black), url(../Images/new\ poster.jpg);
     background-size: cover;
 }
 .ex-btm-req{
     padding-bottom: 160px;
 }
 .sb-btn{
-    height: 77px;
-    width: 240px !important;
+    height: 45px;
+    width: 150px;
 
 }
 .ex-mar-req{
-    margin-left: 300px !important;
+    /* margin-left: 300px !important; */
 }
 .cus-hei-wid-tv{
-    height: 400px;
+    height: 280px;
+    width: 390px;
+    
 }
 .ex-div-mar{
-    margin: 80px;
-    margin-top: 108px;
+    /* margin: 30px; */
+    margin-top: 40px;
 }
 .ex-div-mar-mb{
-    margin: 70px;
-    margin-top: 102px;
+    /* margin: 70px; */
+    margin-top: 40px;
 }
 .cus-font{
-    font-size: 3.1rem;
+    font-size: 1.9rem;
 }
 .cus-fs-p{
-    font-size: 27px;
+    font-size: 18px;
     line-height: 1.1;
 }
 .cus-font-mb{
-    font-size: 3.2rem;
+    font-size: 1.7rem;
     line-height: 1.15;
-    
 }
 .cus-fs-p-mb{
-    font-size: 27px;
+    font-size: 16px;
     line-height: 1.2;
 }
 .ex-div-mar-dev{
@@ -89,7 +146,25 @@ body{
     padding-bottom: 560px;
 }
 .spc-color{
-    color: #737373;
+    color: #464545;
 }
-
+.bg-spc-color{
+    /* background-color: #737373; */
+    background-color: #303030;
+}
+.cus-hei-wid{
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+}
+.select {
+    /* font-family: 'FontAwesome', 'Second Font name'; */
+    
+  }
+.globe-font-size{
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    width: 89px !important;
+}
 
